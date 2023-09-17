@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="17" height="21" viewBox="0 0 17 21">
+  <g id="book" transform="translate(0.5 0.5)">
+    <path id="Rectangle_696" data-name="Rectangle 696" d="M13,0H3A3,3,0,0,0,0,3V17H16V3A3,3,0,0,0,13,0Z" fill="#757b8c" stroke="rgba(0,0,0,0)" stroke-width="1" opacity="0.4"/>
+    <path id="Vector_2943_Stroke_" data-name="Vector 2943 (Stroke)" d="M0,.75A.75.75,0,0,1,.75,0h8a.75.75,0,0,1,0,1.5h-8A.75.75,0,0,1,0,.75Z" transform="translate(3.25 4.25)" fill="#757b8c" stroke="rgba(0,0,0,0)" stroke-width="1"/>
+    <path id="Vector_2944_Stroke_" data-name="Vector 2944 (Stroke)" d="M0,.75A.75.75,0,0,1,.75,0h4a.75.75,0,0,1,0,1.5h-4A.75.75,0,0,1,0,.75Z" transform="translate(3.25 8.25)" fill="#757b8c" stroke="rgba(0,0,0,0)" stroke-width="1"/>
+    <path id="Rectangle_549" data-name="Rectangle 549" d="M16,0H3A3,3,0,0,0,3,6H13a3,3,0,0,0,3-3Z" transform="translate(0 14)" fill="#757b8c" stroke="rgba(0,0,0,0)" stroke-width="1"/>
+  </g>
+</svg>

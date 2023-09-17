@@ -1,0 +1,5 @@
+function getDialFormatted(dialCode){return '+'+dialCode;}
+var input=$(".phone-tel");input.each(function(){if(this){var iti=window.intlTelInput(this,{separateDialCode:true,formatOnDisplay:false,utilsScript:"https://cdn.jsdelivr.net/npm/intl-tel-input@17.0.3/build/js/utils.js",});var mobileCodeInput=$(this).parents('.bitaqa-fields-group').find('.mobile-code-input');if(mobileCodeInput.val()){iti.setNumber(mobileCodeInput.val()+this.value);}
+else{iti.setCountry("sa");}
+if(iti.s.dialCode){mobileCodeInput.val(getDialFormatted(iti.s.dialCode)).trigger('change');}
+this.addEventListener("countrychange",function(){let $selectedCode=iti.getSelectedCountryData();mobileCodeInput.val(getDialFormatted($selectedCode.dialCode)).trigger('change');});}});
